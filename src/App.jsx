@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import * as Web3 from '@solana/web3.js';
-// import * as dotenv from 'dotenv';
-// dotenv.config();
+import * as dotenv from 'dotenv';
+dotenv.config();
 import * as buffer from "buffer";
 window.Buffer = buffer.Buffer;
 import './App.css'
